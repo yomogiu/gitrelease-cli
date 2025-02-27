@@ -4,11 +4,11 @@ A zero-dependency, functionally pure CLI for enterprise release management.
 
 ## Features
 
-- Semantic versioning control with automatic version determination
-- Immutable release snapshots with full provenance
-- Workflow enforcement with stage gates
-- Conventional commits analysis and enforcement
-- Automated verification and validation
+- Semantic versioning control with automatic version setting
+- Release snapshot record
+- Workflow enforcement (confirms code follows dev -> test -> staging -> prod)
+- Forced commit message patterns
+- Automated verification and validation (checks for CI/CD pipeline passed, no uncommitted changes, etc.)
 
 ## Installation
 
