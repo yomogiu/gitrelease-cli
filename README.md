@@ -9,6 +9,7 @@ A zero-dependency, functionally pure CLI for enterprise release management.
 - Workflow enforcement (confirms code follows dev -> test -> staging -> prod)
 - Forced commit message patterns
 - Automated verification and validation (checks for CI/CD pipeline passed, no uncommitted changes, etc.)
+  - Right now the test is skipped for now but you can modify this for your own purpose
 
 ## Installation
 
