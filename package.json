@@ -1,0 +1,18 @@
+{
+  "name": "gitrelease-cli",
+  "version": "1.0.0",
+  "description": "Zero-dependency functional CLI for enterprise release management",
+  "main": "gitrelease.js",
+  "bin": {
+    "gitrelease": "./gitrelease.js"
+  },
+  "keywords": [
+    "git",
+    "release",
+    "management",
+    "cli",
+    "functional"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
