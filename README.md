@@ -21,8 +21,6 @@ See gitrelease help for full command documentation.
 
 Usage: gitrelease [command] [options]
 
-# GitRelease CLI
-
 ## Commands
 
 | Command                 | Description |
