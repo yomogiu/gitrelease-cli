@@ -14,7 +14,10 @@ A zero-dependency, functionally pure CLI for enterprise release management.
 ## Installation
 
 ```bash
-npm install -g gitrelease-cli
+clone this repository
+cd gitrelease-cli
+npm link (if you need to run in a different local repo)
+gitrelease help
 ```
 
 ## Usage
@@ -48,3 +51,6 @@ gitrelease config versioning.pattern calver
 gitrelease prepare 1.2.0
 gitrelease finalize
 gitrelease branch feature user-authentication
+
+## TODO
+Currently **gitrelease-cli** stores the configuration separately. So if you've made a change to the local repo, you'll have to run **gitrelease init** again to perform a manual refresh.
