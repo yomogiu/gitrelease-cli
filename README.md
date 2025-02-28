@@ -1,6 +1,8 @@
 # GitRelease CLI
 
-A zero-dependency, functionally pure CLI for enterprise release management.
+gitrelease-cli is an independent tool and is not affiliated with the Git project or Software Freedom Conservancy.
+
+It's a zero-dependency, functionally pure CLI for release management. 
 
 ## Features
 
