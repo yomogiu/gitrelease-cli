@@ -1,0 +1,42 @@
+{
+  "repository": {
+    "name": "gitrelease-cli",
+    "remoteUrl": "https://github.com/yomogiu/gitrelease-cli"
+  },
+  "versioning": {
+    "pattern": "semver",
+    "customPattern": "",
+    "initialVersion": "0.1.0"
+  },
+  "workflow": {
+    "stages": [
+      "development",
+      "testing",
+      "staging",
+      "production"
+    ],
+    "requiredApprovals": 2,
+    "enforceLinearHistory": true,
+    "requireCleanWorkDir": true
+  },
+  "verification": {
+    "requiredTests": true,
+    "requiredReviews": true,
+    "requiredCIChecks": [
+      "lint",
+      "build",
+      "test"
+    ],
+    "enforceConventionalCommits": true
+  },
+  "release": {
+    "generateChangelog": true,
+    "tagPrefix": "v",
+    "createGitHubRelease": true,
+    "artifacts": {
+      "generateSBOM": true,
+      "saveAssets": true,
+      "assetPath": "./dist"
+    }
+  }
+}
