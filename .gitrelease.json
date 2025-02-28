@@ -1,8 +1,4 @@
 {
-  "repository": {
-    "name": "gitrelease-cli",
-    "remoteUrl": "https://github.com/yomogiu/gitrelease-cli"
-  },
   "versioning": {
     "pattern": "semver",
     "customPattern": "",
