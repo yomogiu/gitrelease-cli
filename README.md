@@ -12,6 +12,7 @@ It's a zero-dependency, functionally pure CLI for release management.
 - Forced commit message patterns
 - Automated verification and validation (checks for CI/CD pipeline passed, no uncommitted changes, etc.)
   - Right now the test is skipped for now but you can modify this for your own purpose
+- SBOM generation based on package.json
 
 ## Installation
 
